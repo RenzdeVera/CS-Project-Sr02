@@ -1,0 +1,53 @@
+main {
+	background-image: linear-gradient(#00d4ff, #0ad5c8, #25b4bb, white);
+	color: #16dbd1;
+	height: 100%;
+}
+
+.container {
+	width: 30%;
+	background-color: #556564;
+	padding: 10px; margin: auto;
+	border-radius: 10px; border: 2px solid black;
+	font-size: 30px; font-family: Helvetica; 
+	position: relative; top: 60px;
+} 
+
+form {
+	font-size: 26px;
+}
+
+form div {
+	padding-top: 20px;
+}
+
+input {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.submit input {
+	padding: 10px;
+	background-color: green;
+	color: white;
+}
+
+.message input {
+	padding: 30px;
+}
+
+.back input {
+	padding: 5px;
+}
+
+.back input:hover {
+	background-color: black;
+	color: white;
+}
+
+@media screen and (max-width: 769px) {
+	.container {
+		width: 70%;
+	}
+}

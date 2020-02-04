@@ -1,0 +1,193 @@
+body {
+	height: 100%;
+	font-family: Georgia; 
+	margin: 0;	
+	font-size: 30px;
+}
+
+header {
+	border-top: 1px solid black; border-bottom: 1px solid black;
+	background: #5076ff; color: #fff5e4;
+	text-align: center; font-size: 25px;
+	padding-top: 5px; padding-bottom: 5px;
+}
+
+.subtitle {
+	font-size: 20px;
+}
+
+.right {
+	background-image: linear-gradient(#c6fff8, white, #c6fff8, white);
+	height: 100%;
+	border: 1px solid black; border-top: 0px;
+}
+
+.left {
+	background-image: linear-gradient(#a9ecff, white);
+	height: 100%;
+	border: 1px solid black; border-top: 0px;
+	text-align: center;
+}
+
+.link1 {
+	background-color: rgba(199,154,86, 0.8); 
+	width: 70%;	padding: 10px; border: 3px solid white;
+	margin: auto; margin-top: 5px;
+	transition: 1s;
+}
+
+.link2 {
+	background-color: rgba(59,121,130, 0.4);
+	width: 70%;	padding: 10px; border: 3px solid white;
+	margin: auto; margin-top: 5px;
+	transition: 1s;
+}
+
+.link1:hover, .link2:hover {
+	background-color: rgba(0,0,0, 1);
+	border: 3px solid gray;
+}
+
+.head {
+	font-size: 26px;
+	margin-top: 3px; margin-bottom: 3px;
+	border-bottom: 1px solid black;
+}
+
+.body {
+	background: #f6feff;
+	padding: 7px;
+}
+
+.topimg img {
+	display: block;
+	margin-left: auto; margin-right: auto;
+	width: 200px;
+	padding: 10px;
+	
+}
+
+.officers {
+	padding: 10px;
+}
+
+.heading {
+	border: 1px solid black; border-radius: 10px;
+	width: 30%; 
+	padding: 5px; margin: 0px; 
+	background: #d3fff1;
+	font-size: 25px; text-align: center;
+}
+
+.actuallytheofficers img {
+	height: 60px;
+	border-radius: 50%;
+}
+
+.actuallytheofficers {
+	font-size: 19px;
+	padding-top: 10px;
+}
+
+.adviser, .pres, .vp, .sec, .tres, .cas1, .cas2, .cre1, .cre2 {
+	display: flex;
+}
+
+.adviser div, .pres div, .vp div, .sec div, .tres div, .cas1 div, .cas2 div, .cre1 div, .cre2 div {
+	margin-top: 25px; margin-left: 10px;
+}
+
+.officers img {
+	padding: 5px;
+}
+
+.cdivisions, .pdivisions {
+	padding: 10px;
+}
+
+.other div {
+	padding-left: 20px; padding-bottom: 5px;
+}
+
+.other h1 {
+	font-size: 30px;
+}
+
+.productions {
+	padding: 10px;
+}
+
+.wtaw, .cc, .hb, .wait {
+	padding: 5px;
+}
+
+.wtaw img {
+	padding: 10px;
+	width: 600px;
+}
+
+.wait img, .cc img, .hb img {
+	padding: 10px;
+	width: 450px;
+}
+
+.wtaw h1, .cc h1, .hb h1, .wait h1 {
+	font-size: 30px;
+}
+
+.wtaw div, .cc div, .hb div, .wait div {
+	padding-left: 10px;
+}
+
+.final {
+	border-top: 3px solid black;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.shamelessplug {
+	border: 1px solid black; border-radius: 10px;
+	width: 30%; 
+	padding: 5px; margin: 10px; 
+	background: #d3fff1;
+	font-size: 25px; text-align: center;
+}
+
+.footer {
+	border-top: 1px solid black;
+	font-size: 14px; text-align: center;
+	background-color: #9ff9ff; color: black;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 7fr 1fr;
+}
+
+@media screen and (max-width: 769px) {
+	.link1, .link2 {
+		width: 60%;
+	}
+	
+	.left {
+		width: 100px;
+	}
+	
+	header {
+		width: 1050px;
+	}
+	
+	.right {
+		border: 0; display: none;
+	}
+	
+	.heading {
+		padding: 10px;
+		font-size: 40px;	
+	}
+	
+	.actuallytheofficers {
+		font-size: 30px;
+	}
+	
+}
